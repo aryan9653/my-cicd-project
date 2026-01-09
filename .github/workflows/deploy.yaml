@@ -17,7 +17,7 @@ jobs:
       - name: Run Tests
         run: |
           pip install pytest
-          pytest test_main.py
+          pytest testmain.py
 
       - name: Create Build Artifact
         if: success()
